@@ -6,7 +6,7 @@ function About() {
   
   return (
     <div className='about' id='about'>
-      <img src={DR} alt={DrR}/>
+      <img src={DrR} alt={DrR}/>
       <div className='Content'>
         <h1>About Our Doctor</h1>
         <p>My name is Dr Himanshu Garg, <br/> I am a Physiotheripist and MBBS from AIIMS, New Delhi <br/>
