@@ -9,8 +9,8 @@ function About() {
       <img src={DrR} alt={DrR}/>
       <div className='Content'>
         <h1>About Our Doctor</h1>
-        <p>My name is Dr Himanshu Garg, <br/> I am a Physiotheripist and MBBS from AIIMS, New Delhi <br/>
-        A physician, medical practitioner, medical doctor, or simply doctor, is a health professional who practices medicine, which is concerned with promoting, maintaining or restoring health through the study, diagnosis, prognosis and treatment of disease, injury, and other physical and mental impairments.</p>
+        <p>Dr. Himanshu Garg - Physiotheripist <br/> Brahm Shakti Hospital, Kanjhawala Road, Pocket C, Budh Vihar Phase I, Budh Vihar, Delhi <br/>
+        Clinic Address :- physiocare near Maharana Partap Enclave, Pitam Pura, Delhi <br/>Book Appointment for Best Experience By Our Qualified Doctor</p>
     </div>
     </div>
   )
