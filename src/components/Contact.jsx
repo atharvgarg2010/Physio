@@ -16,9 +16,9 @@ function Contact() {
 
         emailjs.sendForm('service_5wbvkgn', 'template_ch2tx48', form.current, 'Cvk6Zz5BiHeweKeZF')
             .then((result) => {
-                console.log(result.text);
+                alert("Success: Message Sent")
             }, (error) => {
-                console.log("DD");
+               alert("Error: Some Error Occured!!")
             });
         // load()
     };
