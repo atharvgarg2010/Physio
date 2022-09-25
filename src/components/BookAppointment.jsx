@@ -16,9 +16,9 @@ function Appoint() {
 
         emailjs.sendForm('service_5wbvkgn', 'template_xir7l4h', form.current, 'Cvk6Zz5BiHeweKeZF')
             .then((result) => {
-                console.log(result.text);
+                alert("Success: Booking Confirmation Will Be Done On Your Mail")
             }, (error) => {
-                console.log("DD");
+                alert("Error: Some Error Occured! Try Again")
             });
         // load()
     };
