@@ -7,7 +7,7 @@ function Appoint() {
     const [data, setData] = useState({ "Name": "", 'Email': "", "Message": "" })
     const onChangee = (event) => {
         setData({ ...data, [event.target.name]: event.target.value })
-        console.log(data);
+        console.log("X");
     }
     const form = useRef();
 
