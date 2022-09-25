@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&display=swap');
+.navbar {
+  background-color: #002B5B;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+body{
+  overflow-x: hidden;
+  padding: 0%;
+  margin: 0px;
+}
+.FleexCenter{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.575);
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 50px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.Tabs a{
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    transition: all 1.5s linear;
+    margin: 10px;
+}
+@media  screen and (max-width: 800px) {
+    /* For tablets: */
+    .Tabs a{
+        padding: 15px;
+        color: white;
+        font-size: 25px;
+        text-decoration: none;
+        transition: all 1.5s linear;
+        margin: 2px;
+    }
+    .Tabs{
+        padding: 20px 1px;
+    }
+  }
+
+@media  screen and (max-width: 600px) {
+    /* For tablets: */
+    .Tabs a{
+        padding: 5px;
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+        transition: all 1.5s linear;
+        margin: 0px;
+        
+    }
+    #about img{
+      width: 300px;
+      height: auto;
+      object-fit: cover;
+    }
+    .Tabs a:hover{
+        padding: 8px;
+        color: white;
+        font-size: 15.5px;
+        text-decoration: none;
+        transition: all 1.5s linear;
+        background:#82b26c7e;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    
+        margin: 2px;
+    }
+    .Tabs{
+        padding: 20px 1px;
+    }
+    .FleexCenter{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.575);
+        height: 100%;
+        width: 100%;
+        color: #fff;
+        font-family: 'Baloo Paaji 2', cursive;
+        font-size: 25px;
+    }
+    .about{
+      display: flex;
+      margin: 10px 50px;
+      gap: 100px;
+      flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+  }
+  
+.Tabs a:hover{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-decoration:none;
+    background:#82b26c7e;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.about img{
+  height: 500px; 
+}
+.about{
+  display: flex;
+  margin: 10px 50px;
+  gap: 100px;
+  flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about .Content{
+  width: 600px;
+}
+.Contentt{
+  background: #256D85;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: stretch;
+  padding: 20px;
+  height: 400px;
+  gap: 10px;
+}
+.aa{
+  background: #2B4865;
+  padding: 20px;
+}
+.btn{
+  background: rgba(0, 0, 0, 0);
+  max-width: 100px;
+  padding:10px;
+  border-radius: 200px;
+  background: linear-gradient(to left, #32616d, #256D85,#2B4865,#002B5B);
+  border: none;
+  transition: all 1.3s linear;
+}
+.c{
+  background: rgb(34, 34, 34);
+  color: white;
+  padding: 8px 0px;
+  border-radius: 200px;
+  width: 100%;
+  transition: all 1.3s linear;
+
+}
+.Contentt{
+  font-family: 'Baloo Paaji 2', cursive;
+
+}
+
+.btn:hover{
+  background: rgba(0, 0, 0, 0);
+  max-width: 100px;
+  padding:10px;
+  border-radius: 200px;
+  background: rgb(34, 34, 34);
+  border: none;
+  transition: all 1.3s linear;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;700&display=swap');
+.content h2{
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 40px;
+}
+.alert{
+  background: url('https://worldvisionit.com/wp-content/uploads/2014/10/bg.jpg');
+  position: absolute;
+}
+.a{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.Footer{
+  text-align: center;
+  background: url("https://w0.peakpx.com/wallpaper/35/260/HD-wallpaper-background-bg-textures-purple-abstract-pink.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-top:  20px ;
+  color: #fff;
+}
+.ff{
+  padding: 20px 200px;
+  color: #fff;
+  transition: all 1.5s linear;
+}
+.ff:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.btn:hover .c{
+  
+  /* background: linear-gradient(to right, red, purple); */
+  background: linear-gradient(to left, #32616d, #256D85,#2B4865,#002B5B);
+
+  color: white;
+  padding: 8px 0px;
+  border-radius: 200px;
+  width: 100%;
+  transition: all 1.3s linear;
+
+}
+#inp{
+  
+  padding: 6px 12px;
+  background: #345374;
+  border: 1px solid rgba(101, 161, 147, 0);
+  border-radius: 4px;
+  font-size: 13px;
+  outline: none;
+  color: rgba(255, 255, 255, 0.466);
+  height: 46px;
+  appearance: none;
+  transition: border 0.15s ease 0s;
+
+
+}
+#inp  :focus{
+  outline: none;
+  box-shadow: none;
+  border-color: rgb(100, 153, 255);
+}
