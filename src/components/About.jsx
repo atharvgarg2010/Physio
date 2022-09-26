@@ -9,7 +9,7 @@ function About() {
       <img src={DrR} alt={DrR}/>
       <div className='Content'>
         <h1>About Our Doctor</h1>
-        <p>Dr. Himanshu Garg - Physiotheripist <br/> MBBS from Brahm Shakti Hospital, Kanjhawala Road, Pocket C, Budh Vihar Phase I, Budh Vihar, Delhi <br/>
+        <p>Dr. Himanshu Garg - Physiotheripist <br/> B. P. T. from GGSIPU DELHI Former physiotherapist at BRAHM SHAKTI HOSPITAL delhi <br/>
         Clinic Address :- physiocare near Maharana Partap Enclave, Pitam Pura, Delhi <br/>Book Appointment for Best Experience By Our Qualified Doctor</p>
     </div>
     </div>
