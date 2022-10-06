@@ -14,7 +14,7 @@ function Appoint() {
     const emailsend = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_5wbvkgn', 'template_xir7l4h', form.current, 'Cvk6Zz5BiHeweKeZF')
+        emailjs.sendForm('service_z2nn41k', 'template_4zczgio', form.current, '7ikjytWBlitOHuCu3')
             .then((result) => {
                 alert("Success: Booking Confirmation Will Be Done On Your Mail")
             }, (error) => {
